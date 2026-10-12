@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0fff0;
+  color: #333333;
+}
+
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 17px;
+}
+
+nav {
+  background-color: #0aae56;
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 6px 10px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #048d3f;
+  border-radius: 5px;
+}
+
+
+section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 35px 20px;
+}
+
+h2 {
+  color: #2e8b57;
+  font-size: 26px;
+  border-bottom: 3px solid #059905;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+
+.hero {
+  background: linear-gradient(to right, #a8e6a3, #d4f5d0);
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h2 {
+  border: none;
+  font-size: 28px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 12px auto;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.card {
+  background-color: white;
+  border: 2px solid #90ee90;
+  border-radius: 10px;
+  width: 290px;
+  box-shadow: 2px 2px 6px #cccccc;
+}
+
+.card h3 {
+  color: #2e8b57;
+  margin-bottom: 8px;
+  font-size: 19px;
+}
+
+.card p {
+  font-size: 15px;
+}
+
+
+.box {
+  background-color: white;
+  border: 2px dashed #2e8b57;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.box h3 {
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+.tip-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.tip-list li {
+  background-color: #e8f5e8;
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-left: 5px solid #2e8b57;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+.habit-line {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.habit-line input {
+  margin-right: 8px;
+  transform: scale(1.1);
+}
+
+.note {
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+}
+
+
+form {
+  background-color: rgb(97, 214, 103);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 9px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1f6b43;
+}
+
+.form-note {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+footer {
+  background-color: #1f6b43;
+  color: white;
+  text-align: center;
+  padding: 22px 15px;
+  margin-top: 30px;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 26px;
+  }
+
+  header p {
+    font-size: 15px;
+  }
+
+  nav a {
+    display: block;
+    margin: 6px 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  section {
+    padding: 25px 14px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .hero h2 {
+    font-size: 23px;
+  }
+}
